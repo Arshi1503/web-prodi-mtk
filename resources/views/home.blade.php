@@ -30,7 +30,7 @@
                             <img  class= "tw-my-8" src="{{asset('images/gambar/math.jpg')}}" alt="">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-10 offset-xl-1 text-center text-lg-start last-paragraph-no-margin">
-                            <p class="w-90 xl-w-100 tw-pt-36" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>Program Studi Matematika adalah bidang ilmu yang mempelajari struktur, pola, dan hubungan antar konsep yang abstrak maupun aplikatif. Di dalamnya, mahasiswa akan mendalami berbagai cabang matematika seperti aljabar, kalkulus, statistika, analisis, serta pemodelan matematika dan komputasi. Program studi ini cocok bagi mereka yang suka berpikir logis, analitis, dan menyukai tantangan pemecahan masalah. Lulusan matematika memiliki peluang karier yang luas, mulai dari dunia pendidikan, riset, data science, keuangan, hingga teknologi informasi.
+                            <p class="w-90 xl-w-100 lg:tw-pt-36" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>Program Studi Matematika adalah bidang ilmu yang mempelajari struktur, pola, dan hubungan antar konsep yang abstrak maupun aplikatif. Di dalamnya, mahasiswa akan mendalami berbagai cabang matematika seperti aljabar, kalkulus, statistika, analisis, serta pemodelan matematika dan komputasi. Program studi ini cocok bagi mereka yang suka berpikir logis, analitis, dan menyukai tantangan pemecahan masalah. Lulusan matematika memiliki peluang karier yang luas, mulai dari dunia pendidikan, riset, data science, keuangan, hingga teknologi informasi.
                             </p>
                             <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-7">
                                 Selengkapnya
@@ -121,19 +121,19 @@
                                 Melalui kurikulum yang adaptif, suasana akademik yang kondusif, serta dosen-dosen yang kompeten, kami berharap website ini menjadi jendela informasi bagi mahasiswa, orang tua, calon mahasiswa, dan masyarakat luas untuk mengenal lebih dekat Program Studi Matematika.</p>
                             </div>
                             
-                            <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-7">
-                                Selengkapnya
-                                <span class="bg-orient-blue text-white">
-                                    <i class="feather icon-feather-arrow-right icon-small"></i>
-                                </span>
-                            </a>                        
                         </div>
-                        <div class="col-lg-6 position-relative md-mt-14 sm-mt-17 xs-mt-23"> 
-                            <div class="w-70 md-w-75 xs-w-90 tw-ml-32" data-animation-delay="50" data-shadow-animation="true">
-                                <img src="{{ asset('images/gambar/alumni2.jpg') }}" alt="" class=" border-radius-8px w-100">
+                        <div class="col-lg-6 position-relative sm-mt-10"> 
+                            <div class="w-70 md-w-75 xs-w-90 lg:tw-ml-32 md:tw-ml-40 tw-ml-20" data-animation-delay="50">
+                                <img src="{{ asset('images/gambar/alumni2.jpg') }}" alt="" class=" border-radius-8px md:tw-w-[80%] tw-w-[70%] lg:tw-w-[100%]">
                             </div>
                         </div> 
                     </div> 
+                    <a href="#" class="tw-ml-24 md:tw-ml-[16rem] lg:tw-ml-24 btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow tw-mt-7">
+                        Selengkapnya
+                        <span class="bg-orient-blue text-white">
+                            <i class="feather icon-feather-arrow-right icon-small"></i>
+                        </span>
+                    </a>                        
                 </div>
             </section>
             <section class="py-0">

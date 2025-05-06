@@ -1,6 +1,6 @@
 <header>
     <div class="header-top-bar top-bar-dark bg-very-light-gray">
-        <div class="tw-w-full tw-bg-[#1e3a8a] tw-shadow tw-pt-3 tw-pb-0.5 tw-px-6 tw-flex tw-justify-between tw-items-center tw-text-sm tw-font-medium tw-sticky tw-top-0">
+        <div class="tw-w-full tw-bg-primary tw-shadow tw-pt-3 tw-pb-0.5 tw-px-6 tw-flex tw-justify-between tw-items-center tw-text-sm tw-font-medium tw-sticky tw-top-0">
 
             <!-- Kiri: Logo atau Judul -->
           
@@ -19,11 +19,11 @@
           
             <!-- Kanan: Pilihan Bahasa -->
             <div class="tw-hidden lg:tw-flex tw-gap-2">
-              <button class="tw-bg-[#1e3a8a] tw-px-3 tw-py-1 tw-rounded hover:tw-bg-[#344d95] tw-text-gray-300 hover:tw-text-gray-100 transition">
+              <button class="tw-bg-primary tw-px-3 tw-py-1 tw-rounded hover:tw-bg-secondary tw-text-gray-300 hover:tw-text-gray-100 transition">
                 <img src="{{asset ('images/gambar/idn-flag.png')}}" alt="" width="20">🇮🇩</button>
-              <button class="tw-bg-[#1e3a8a] tw-px-3 tw-py-1 tw-rounded hover:tw-bg-[#344d95] tw-text-gray-300 hover:tw-text-gray-100 transition">
+              <button class="tw-bg-primary tw-px-3 tw-py-1 tw-rounded hover:tw-bg-secondary tw-text-gray-300 hover:tw-text-gray-100 transition">
                 <img src="{{asset ('images/gambar/eng-flag.png')}}" alt="" width="20">🇺🇸</button>
-              <button class="tw-bg-[#1e3a8a] tw-px-3 tw-py-1 tw-rounded hover:tw-bg-[#344d95] tw-text-gray-300 hover:tw-text-gray-100 transition">
+              <button class="tw-bg-primary tw-px-3 tw-py-1 tw-rounded hover:tw-bg-secondary tw-text-gray-300 hover:tw-text-gray-100 transition">
                 <img src="{{asset ('images/gambar/kr-flag.png')}}" alt=" " width="20">🇰🇷</button>
             </div>
           

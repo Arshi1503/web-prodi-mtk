@@ -17,11 +17,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- style sheets and font icons  -->
         @vite('resources/css/app.css')
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/corporate/corporate.css" />
+        <link rel="stylesheet" href="{{asset('css/vendors.min.css')}}"/>
+        <link rel="stylesheet" href="{{asset('css/icon.min.css')}}"/>
+        <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
+        <link rel="stylesheet" href="{{asset('css/responsive.css')}}"/>
+        <link rel="stylesheet" href="{{asset('demos/corporate/corporate.css')}}" />
     </head>
 
     <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#242E45">
@@ -51,9 +51,9 @@
         </div>
         <!-- end scroll progress -->
         <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
+        <script type="text/javascript" src="{{asset('js/vendors.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
         @vite('resources/js/app.js')
         @push('scripts')
         <script>

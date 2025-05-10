@@ -49,35 +49,35 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
                     <ul class="navbar-nav"> 
-                        <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
+                        <li class="nav-item"><a href="{{asset('/')}}" class="nav-link">Beranda</a></li>
                         <li class="nav-item dropdown dropdown-with-icon-style02">
-                            <a href="/tentang" class="nav-link">Tentang Kami</a>
+                            <a href="{{asset('/tentang')}}" class="nav-link">Tentang Kami</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                <li><a href="/tentang"><i class="bi bi-infinity"></i>Tentang Matematika</a></li>
-                                <li><a href="/visi-misi-tujuan"><i class="bi bi-bullseye"></i>Visi, Misi dan Tujuan</a></li>
-                                <li><a href="/struktur-organisasi"><i class="bi bi-diagram-3"></i>Struktur Organisasi</a></li>
-                                <li><a href="/fasilitas"><i class="bi bi-building"></i>Fasilitas</a></li>
-                                <li><a href="/dosen"><i class="bi bi-mortarboard"></i>Dosen</a></li>
-                                <li><a href="/akreditasi"><i class="bi bi-check-circle"></i>Akreditasi</a></li>
-                                <li><a href="/karir"><i class="bi bi-briefcase"></i>Karir</a></li>
+                                <li><a href="{{asset('/tentang')}}"><i class="bi bi-infinity"></i>Tentang Matematika</a></li>
+                                <li><a href="{{asset('/visi-misi-tujuan')}}"><i class="bi bi-bullseye"></i>Visi, Misi dan Tujuan</a></li>
+                                <li><a href="{{asset('/struktur-organisasi')}}"><i class="bi bi-diagram-3"></i>Struktur Organisasi</a></li>
+                                <li><a href="{{asset('/fasilitas')}}"><i class="bi bi-building"></i>Fasilitas</a></li>
+                                <li><a href="{{asset('/dosen')}}"><i class="bi bi-mortarboard"></i>Dosen</a></li>
+                                <li><a href="{{asset('/akreditasi')}}"><i class="bi bi-check-circle"></i>Akreditasi</a></li>
+                                <li><a href="{{asset('/karir')}}"><i class="bi bi-briefcase"></i>Karir</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown dropdown-with-icon-style02">
-                            <a href="/kurikulum" class="nav-link">Akademik</a>
+                            <a href="{{asset('/kurikulum')}}" class="nav-link">Akademik</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                <li><a href="/kurikulum"><i class="bi bi-journal-bookmark"></i>Kurikulum</a></li>
-                                <li><a href="/profil-lulusan"><i class="bi bi-person-check"></i>Profil Lulusan</a></li>
+                                <li><a href="{{asset('/kurikulum')}}"><i class="bi bi-journal-bookmark"></i>Kurikulum</a></li>
+                                <li><a href="{{asset('/profil-lulusan')}}"><i class="bi bi-person-check"></i>Profil Lulusan</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown dropdown-with-icon-style02">
-                            <a href="/artikel" class="nav-link">Publikasi</a>
+                            <a href="{{asset('/publikasi')}}" class="nav-link">Publikasi</a>
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                <li><a href="/artikel"><i class="bi bi-journal"></i>Artikel</a></li>
-                                <li><a href="/berita"><i class="bi bi-newspaper"></i>Berita</a></li>
-                                <li><a href="/kegiatan"><i class="bi bi-calendar"></i>Kegiatan</a></li>
+                                <li><a href="{{asset('/artikel')}}"><i class="bi bi-journal"></i>Artikel</a></li>
+                                <li><a href="{{asset('/berita')}}"><i class="bi bi-newspaper"></i>Berita</a></li>
+                                <li><a href="{{asset('/kegiatan')}}"><i class="bi bi-calendar"></i>Kegiatan</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown dropdown-with-icon-style02">
@@ -85,8 +85,8 @@
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
                                 <li><a href="https://pmb.iwu.ac.id/"><i class="bi bi-pencil-square"></i>Pendaftaran</a></li>
-                                <li><a href="/jadwal-penerimaan"><i class="bi bi-calendar-check"></i>Jadwal Penerimaan</a></li>
-                                <li><a href="/persyaratan-masuk"><i class="bi bi-check-circle"></i>Persyaratan Masuk</a></li>
+                                <li><a href="{{asset('/jadwal-penerimaan')}}"><i class="bi bi-calendar-check"></i>Jadwal Penerimaan</a></li>
+                                <li><a href="{{asset('/persyaratan-masuk')}}"><i class="bi bi-check-circle"></i>Persyaratan Masuk</a></li>
                             </ul>
                         </li> 
                     </ul>

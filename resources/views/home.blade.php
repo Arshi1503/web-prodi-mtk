@@ -56,55 +56,59 @@
             <!-- end section -->
             <!-- start section --> 
             <section class="overlap-height">
-                <div class="container overlap-gap-section">
-                    <div class="row justify-content-center mb-4 sm-mb-10"> 
-                        <div class="col-xl-6 col-lg-7 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                            <span class="fs-20 text-base-color">Tentang Kami</span>
-                            <h3 class="alt-font fw-500 text-dark-gray w-80 xs-w-100 mx-auto ls-minus-1px">Visi, Misi, Tujuan</h3>
-                        </div>
+            <div class="container overlap-gap-section">
+                <div class="row justify-content-center mb-4 sm-mb-10"> 
+                    <div class="col-xl-6 col-lg-7 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span class="fs-20 text-base-color">Tentang Kami</span>
+                        <h3 class="alt-font fw-500 text-dark-gray w-80 xs-w-100 mx-auto ls-minus-1px">Visi, Misi, Tujuan</h3>
                     </div>
-                    <div class="row row-cols-1 row-cols-lg-4 justify-content-center gap-4 justify-content-center" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <!-- start process step item -->
-                        <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
-                            <i class="bi bi-bullseye text-dark-gray icon-large mb-20px"></i>
-                            <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Visi</span>
-                            @if ($visiMisiTujuan && $visiMisiTujuan->visi)
-                                <p>{!! $visiMisiTujuan->visi !!}</p>
-                            @endif
-                            {{-- <p>Menjadi Program Studi unggulan dalam bidang Matematika, berintegritas, dan adaptif terhadap perkembangan teknologi serta kebutuhan dunia kerja di tingkat nasional.</p> --}}
-                        </div>
-                        <!-- end process step item -->
-                        <!-- start process step item -->
-                        <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
-                            <i class="bi bi-list-task text-dark-gray icon-large mb-20px"></i>     
-                            <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Misi</span>
-                            @if ($visiMisiTujuan && $visiMisiTujuan->misi)
-                                <p>{!! $visiMisiTujuan->misi !!}</p>
-                            @endif
-                            {{-- <p>Menyelenggarakan pendidikan di bidang akuntansi dan perpajakan yang berbasis kompetensi dan teknologi terkini.</p> --}}
-                        </div>
-                        <!-- end process step item -->
-                        <!-- start process step item -->
-                        <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
-                            <i class="bi bi-stars text-dark-gray icon-large mb-20px"></i>  
-                            <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Tujuan</span>
-                            @if ($visiMisiTujuan && $visiMisiTujuan->tujuan)
-                                <p>{!! $visiMisiTujuan->tujuan !!}</p>
-                            @endif
-                            {{-- <p>Mendorong terciptanya inovasi dan solusi praktis melalui kegiatan penelitian dan pengabdian masyarakat.</p> --}}
-                        </div>
-                        <!-- end process step item -->
-                    </div>
-                    <div class="tw-mt-5 tw-flex tw-justify-center">
-                        <a href="#" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
-                            Selengkapnya
-                            <span class="bg-orient-blue text-white">
-                                <i class="feather icon-feather-arrow-right icon-small"></i>
-                            </span>
-                        </a>
-                    </div>                    
                 </div>
-            </section>
+                <div class="row row-cols-1 row-cols-lg-4 justify-content-center gap-4 justify-content-center" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <!-- start process step item -->
+                    <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
+                        <i class="bi bi-bullseye text-dark-gray icon-large mb-20px"></i>
+                        <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Visi</span>
+                        @if ($visiMisiTujuan && $visiMisiTujuan->visi)
+                            <span>{!! $visiMisiTujuan->visi !!}</span>
+                        @endif
+                        {{-- <p>Menjadi Program Studi Ilmu Politik yang unggul dalam kajian politik lokal dan global, serta berkontribusi aktif terhadap pembangunan demokrasi yang berkeadaban.</p> --}}
+                    </div>
+                    <!-- end process step item -->
+                    <!-- start process step item -->
+                    <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
+                        <i class="bi bi-list-task text-dark-gray icon-large mb-20px"></i>     
+                        <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Misi</span>
+                        @if ($visiMisiTujuan && is_array($visiMisiTujuan->misi) && count($visiMisiTujuan->misi) > 0)
+                        <span class="w-90 sm-w-100">
+                            {!! $visiMisiTujuan->misi[0]['text'] !!}
+                        </span>
+                        @endif
+                        {{-- <p>Melakukan penelitian dan pengabdian kepada masyarakat di bidang politik, pemerintahan, dan kebijakan publik.</p> --}}
+                    </div>
+                    <!-- end process step item -->
+                    <!-- start process step item -->
+                    <div class="tw-p-4 tw-h-full tw-flex tw-flex-col tw-justify-between text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
+                        <i class="bi bi-stars text-dark-gray icon-large mb-20px"></i>  
+                        <span class="d-block alt-font fw-600 fs-19 text-dark-gray mb-5px">Tujuan</span>
+                        @if ($visiMisiTujuan && is_array($visiMisiTujuan->tujuan) && count($visiMisiTujuan->tujuan) > 0)
+                        <span class="w-90 sm-w-100">
+                            {!! $visiMisiTujuan->tujuan[0]['text'] !!}
+                        </span>
+                        @endif
+                        {{-- <p>Membentuk lulusan yang memiliki integritas, etika, dan kepemimpinan dalam kehidupan bermasyarakat, berbangsa, dan bernegara.</p> --}}
+                    </div>
+                    <!-- end process step item -->
+                </div>
+                <div class="tw-mt-5 tw-flex tw-justify-center">
+                    <a href="/visi-misi-tujuan" class="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow">
+                        Selengkapnya
+                        <span class="bg-orient-blue text-white">
+                            <i class="feather icon-feather-arrow-right icon-small"></i>
+                        </span>
+                    </a>
+                </div>                         
+            </div>
+        </section>
             <!-- end section -->
             {{-- start section --}}
             <section class="pt-0 big-section tw-my-20">
